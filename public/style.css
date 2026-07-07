@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: url("accidentimageps.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(215, 79, 79);
+  text-shadow: 2px 2px 5px #000;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.container {
+  padding: 40px;
+  background-color: #0a0000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
